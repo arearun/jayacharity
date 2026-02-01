@@ -1,10 +1,10 @@
 {
   "routes": {
-    "/": {},
-    "/about": {},
-    "/contact": {},
-    "/donate": {},
-    "/home": {},
-    "/programs": {}
+    "/jayacharity": {},
+    "/jayacharity/about": {},
+    "/jayacharity/contact": {},
+    "/jayacharity/donate": {},
+    "/jayacharity/home": {},
+    "/jayacharity/programs": {}
   }
 }
