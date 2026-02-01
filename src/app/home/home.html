@@ -1,0 +1,25 @@
+<div class="slider-container">
+  <button class="prev-btn" (click)="prev()">&#10094;</button>
+  <img [src]="currentImage" alt="Donation Image" class="slider-image">
+  <button class="next-btn" (click)="next()">&#10095;</button>
+</div>
+<!-- Preload all images -->
+<div style="display: none;">
+  <img *ngFor="let image of images" [src]="image" alt="">
+</div>
+
+<section class="about-section">
+  <div class="about-content">
+    <div class="vision-mission">
+      <p class="foundation-intro">Jaya Foundation is a dedicated trust committed to uplifting the lives of the poor, disabled, and unhealthy children. Through donations, medical aid, educational support, and feeding programs, we provide essential resources and nourishment to those in need, fostering hope and brighter futures.</p>
+      <h2>Our Vision</h2>
+      <p>To create a compassionate world where every child, regardless of their circumstances, has access to health, education, and nourishment, fostering a brighter future for all.</p>
+      <h2>Our Mission</h2>
+      <p>To provide essential donations, medical aid, and nutritional support to poor, disabled, and unhealthy children, while feeding the hungry and uplifting communities in need.</p>
+      <button class="donate-btn">Donate Now</button>
+    </div>
+    <div class="about-image-container">
+      <img src="assets/images/childrenEating.webp" alt="Children eating provided by Jaya Foundation" class="about-image">
+    </div>
+  </div>
+</section>

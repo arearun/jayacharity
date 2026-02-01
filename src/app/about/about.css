@@ -1,0 +1,138 @@
+.about-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  position: relative;
+  min-height: 100vh;
+  
+  /* Background image that fits perfectly */
+  background-image: url('https://images.pexels.com/photos/6646815/pexels-photo-6646815.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  /* Add subtle overlay for better text readability */
+  background-blend-mode: overlay;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.about-page h1 {
+  text-align: center;
+  color: var(--color-primary-dark);
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+}
+
+.about-page h2 {
+  color: var(--color-primary-dark);
+  border-bottom: 2px solid var(--color-primary-dark);
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6);
+}
+
+.about-page p {
+  margin-bottom: 1rem;
+}
+
+.about-page ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-page li {
+  margin-bottom: 0.5rem;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.member {
+  flex: 1;
+  min-width: 250px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(10px);
+}
+
+.member h3 {
+  color: var(--color-primary-dark);
+  margin-bottom: 0.5rem;
+}
+
+.cta-section {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+  box-shadow: var(--shadow-lg);
+  backdrop-filter: blur(10px);
+}
+
+.cta-btn {
+  background-color: var(--color-success);
+  color: var(--color-white);
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(39, 174, 96, 0.3);
+}
+
+.cta-btn:hover {
+  background-color: var(--color-success-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(39, 174, 96, 0.4);
+}
+
+.cta-btn:active {
+  transform: translateY(0);
+}
+
+/* Content sections with semi-transparent backgrounds */
+.story-section,
+.values-section,
+.impact-section,
+.help-section {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(5px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.story-section:hover,
+.values-section:hover,
+.impact-section:hover,
+.help-section:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.team-section {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: blur(5px);
+}
