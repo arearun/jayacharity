@@ -1,2 +1,0 @@
-export default `:root{--color-primary: #3498db;--color-primary-dark: #2c3e50;--color-success: #27ae60;--color-success-dark: #229954;--color-background-light: #f0f8ff;--color-text: #333;--color-white: #ffffff;--gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);--gradient-soft-blue: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 50%, #80deea 100%);--gradient-warm: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);--shadow-sm: 0 2px 5px rgba(0, 0, 0, .1);--shadow-md: 0 4px 8px rgba(0, 0, 0, .15);--shadow-lg: 0 6px 12px rgba(0, 0, 0, .2)}
-`;
